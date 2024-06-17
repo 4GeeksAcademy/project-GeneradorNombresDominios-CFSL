@@ -1,1 +1,20 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: #008cba;
+  margin: 15px;
+  padding: 10px 30px;
+  border: 3px solid #008cba;
+  user-select: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #085f7b;
+}
